@@ -1,53 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>Promoção Trybe: Viaje para onde quiser.</header>
-    <form id="div-main">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>Promoção Trybe: Viaje para onde quiser.</header>
+  <form id="divMain">
     <label for="input-nome"> Nome:
-        <input type="text" name="nome" id="input-nome" placeholder="Seu nome aqui" required min="10" max="40"/>     
+      <input type="text" name="nome" id="input-nome" placeholder="Seu nome aqui" required min="10" max="40" />
     </label>
     <label for="input-email"> E-mail:
-        <input type:"email" name="email" id="input-email" placeholder="Seu e-mail aqui" required min="10" max="50"/>     
+      <input type:"email" name="email" id="input-email" placeholder="Seu e-mail aqui" required min="10" max="50" />
     </label>
     <fieldset>
-        <legend>Destino Preferido</legend>
-        <label for="dstn-cidade">
-            <input type="radio" name="destino" id="dstn-cidade" value="cidade" checked> Cidade
-        </label>
-        <label for="dstn-campo">
-            <input type="radio" name="destino" id="dstn-campo" value="campo"> Campo
-        </label>
-        <label for="dstn-praia">
-            <input type="radio" name="destino" id="dstn-praia" value="praia"> Praia
-        </label>
-        <label for="dstn-montanhas">
-            <input type="radio" name="destino" id="dstn-montanhas" value="montanhas"> Montanhas
-        </label>
+      <legend>Destino Preferido</legend>
+      <label for="dstn-cidade">
+        <input type="radio" name="destino" id="dstn-cidade" value="cidade" checked> Cidade
+      </label>
+      <label for="dstn-campo">
+        <input type="radio" name="destino" id="dstn-campo" value="campo"> Campo
+      </label>
+      <label for="dstn-praia">
+        <input type="radio" name="destino" id="dstn-praia" value="praia"> Praia
+      </label>
+      <label for="dstn-montanhas">
+        <input type="radio" name="destino" id="dstn-montanhas" value="montanhas"> Montanhas
+      </label>
     </fieldset>
     <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
-    <textarea name="sua-resposta" id="input-resposta" cols="30" rows="10" required max="500"></textarea> 
-    <br>  
+    <textarea name="sua-resposta" id="input-resposta" cols="30" rows="10" required max="500"></textarea>
+    <br>
     <label for="input-date"> Qual a melhor data para realizar sua viagem?
-        <input type="date" name="date" id="input-date" value="date" required/>     
+      <input type="date" name="date" id="input-date" value="date" required />
     </label>
     <br>
     <label for="check-promo"> Qual a melhor data para realizar sua viagem?
-        <input type="checkbox" name="promo" id="check-promo" value="promo"/>   
+      <input type="checkbox" name="promo" id="check-promo" value="promo" />
     </label>
     <br>
     <label for="check-terms"> Qual a melhor data para realizar sua viagem?
-        <input type="checkbox" name="terms" id="check-terms" value="terms"/>   
+      <input type="checkbox" name="terms" id="check-terms" value="terms" />
     </label>
     <br>
-    <button type="submit">Enviar</button>
-    </form>
-  </body>
-  <script src="script.js"></script>
+    <button type="submit" id="buttonSubmmit">Enviar</button>
+  </form>
+</body>
+<script src="script.js"></script>
+
 </html>

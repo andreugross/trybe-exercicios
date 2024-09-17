@@ -1,0 +1,37 @@
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 65px;
+  color: orange;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  background-color: blueviolet;
+  font-style: oblique;
+}
+
+p {
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.background_pattern {
+  background-color: cadetblue;
+  line-height: 2em;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#red {
+  background-color: red;
+}
+
+#brown {
+  background-color: brown;
+}
